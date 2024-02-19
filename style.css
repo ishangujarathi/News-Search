@@ -71,7 +71,7 @@ nav {
     margin: 10px;
 }
 
-.blog-card:hover{
+.blog-card:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -83,15 +83,34 @@ nav {
     margin-bottom: 1rem;
 }
 
-.blog-card h2{
+.blog-card h2 {
     color: #141414;
     font-size: 1.7rem;
     font-weight: 500;
 }
 
 
-.blog-card p{
+.blog-card p {
     font-size: 1.2rem;
     padding-top: 0.7rem;
-    
+
+}
+
+@media(max-width:500px) {
+
+    nav{
+        padding: 0 20px;
+    }
+    .navbar .logo {
+        font-size: 1.8 rem;
+    }
+
+    #search-input {
+        width: 150px;
+        padding: 10px 10px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
 }
